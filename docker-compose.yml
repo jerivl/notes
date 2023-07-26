@@ -6,7 +6,7 @@ services:
     container_name: perlite
     restart: unless-stopped
     environment:
-      - NOTES_PATH=Demo
+      - NOTES_PATH=zk
       - HIDE_FOLDERS=docs,private,trash
       - LINE_BREAKS=true
       - ALLOWED_FILE_LINK_TYPES=pdf
@@ -16,7 +16,7 @@ services:
       - FONT_SIZE=15
       - HTML_SAFE_MODE=true
     volumes:
-      - ./perlite/Demo:/var/www/perlite/Demo:ro
+      - ./perlite/zk:/var/www/perlite/Demo:ro
 
   web:
     build:

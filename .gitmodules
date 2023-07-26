@@ -1,0 +1,3 @@
+[submodule "perlite/zk"]
+	path = perlite/zk
+	url = git@github.com:jerivl/zk.git

@@ -1,4 +1,4 @@
-# [notes.jerivl.com](notes.jerivl.com)
+# [notes.jerivl.com](http://notes.jerivl.com)
 
 This repository contains the codebase for publicly hosting my personal notes.
 

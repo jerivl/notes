@@ -21,7 +21,7 @@ jobs:
       with:
         submodules: true
         repository: ${{ github.repository }}
-        token: ${{ secrets.notes-zk-sync }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     # Update references
     - name: Git Sumbodule Update

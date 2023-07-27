@@ -1,3 +1,6 @@
 [submodule "perlite/zk"]
 	path = perlite/zk
 	url = git@github.com:jerivl/zk.git
+[submodule "web"]
+	path = web
+	url = git@github.com:jerivl/ellie-reverse-proxy.git

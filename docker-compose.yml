@@ -16,7 +16,7 @@ services:
       - FONT_SIZE=15
       - HTML_SAFE_MODE=true
     volumes:
-      - ./perlite/zk:/var/www/perlite/Demo:ro
+      - ./perlite/zk:/var/www/perlite/zk:ro
 
   web:
     build:

@@ -21,7 +21,7 @@ jobs:
       with:
         submodules: true
         repository: ${{ github.repository }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.ELLIE_PAT }}
 
     # Update references
     - name: Git Sumbodule Update
